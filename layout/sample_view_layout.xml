@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name: Rasel khan"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/nameViewId"
+            />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number: 01932587313"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/phnnumViewId"
+            />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:Rasel123@gmail.com"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/mailViewId"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

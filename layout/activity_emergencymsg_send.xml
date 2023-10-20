@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmergencymsgSend"
+    >
+    <include
+        layout="@layout/bar"
+        android:id="@+id/layout_bar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="350dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ListView
+                android:id="@+id/listview3"
+                android:dividerHeight="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/latitude"
+            android:layout_marginTop="120dp"
+            android:hint="Latitude"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:id="@+id/longitude"
+            android:hint="Longitude"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Get current location"
+            android:id="@+id/crntlocation"
+            android:backgroundTint="#730b1b"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/number"
+            android:hint="Manually type any number"
+            android:inputType="phone"
+            android:layout_marginTop="450dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp"
+            android:text="SEND SOS"
+            android:id="@+id/sendsos"
+            android:backgroundTint="#730b1b"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

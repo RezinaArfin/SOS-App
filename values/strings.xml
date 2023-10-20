@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SOS App</string>
+    <string name="color">#FFF</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>

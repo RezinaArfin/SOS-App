@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_fname"
+            android:text="Fullname: Rashel khan "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_usname"
+            android:text="Username:Rasel "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@+id/profile_fname"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_mail"
+            android:text="Email Address:rasel123@gmail.com "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@+id/profile_usname"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_phnnum"
+            android:text="Phone Number:01932587313 "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@+id/profile_mail"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_password"
+            android:text="Password:123123123 "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@+id/profile_phnnum"
+            android:layout_marginTop="20dp"
+            />
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

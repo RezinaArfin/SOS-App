@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abel</item>
+        <item>@font/abril_fatface</item>
+        <item>@font/acme</item>
+        <item>@font/actor</item>
+        <item>@font/aldrich</item>
+        <item>@font/alef</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/archivo_black</item>
+        <item>@font/autour_one</item>
+        <item>@font/londrina_solid</item>
+    </array>
+</resources>

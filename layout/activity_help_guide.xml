@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helpGuide"
+
+    >
+    <include
+        layout="@layout/bar"
+        android:id="@+id/layout_bar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to do work the app?"
+            android:textSize="30dp"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/title_hlp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@+id/title_hlp"
+            android:layout_marginTop="10dp"
+            android:text=" 1.Firstly you have to Register the app by your some important information."
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="359dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="190dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="2.The SOS Alert app gives you one kind of safety.If you are registerd then you use this app properly.Secondly, you have to choose some numbers from your phone contact book by contacts button ."/>
+
+        <TextView
+            android:layout_width="359dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="350dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="3.Then If you click the get Location button , you will get your current location with latitude and longitude.And you will get nearby hospitals and police station list in drawerbox."/>
+
+        <TextView
+            android:layout_width="359dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="480dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="4.When you feel some danger around you then you press the Send SOS button .As a result, Emergency massage which is pre-stored will send automaticaly in your friends contact numbers  which you choosed.Your relative or friends get the massage and they release you from the danger ."/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
